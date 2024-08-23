@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="./favicon.svg">
+    </head>
+    <body>
+      <div class="cover">
+        <div class="container">
+            <div class="home">
+                <h3 id="home-title" class="title">HOME</h3>
+                <div>
+                    <p class="point home-point">0</p>
+                </div>
+                <div class="btn-container">
+                    <button onclick="addPointHome(1)" class="btn home-btn-1">+1</button>
+                    <button onclick="addPointHome(2)" class="btn home-btn-2">+2</button>
+                    <button onclick="addPointHome(3)" class="btn home-btn-3">+3</button>
+                </div>
+            </div>
+            
+            <div class="guest">
+                <h3 id="guest-title" class="title">GUEST</h3>
+                <div>
+                    <p class="point guest-point">0</p>
+                </div>
+                <div class="btn-container">
+                    <button onclick="addPointGuest(1)" class="btn guest-btn-1">+1</button>
+                    <button onclick="addPointGuest(2)" class="btn guest-btn-2">+2</button>
+                    <button onclick="addPointGuest(3)" class="btn guest-btn-3">+3</button>
+                </div>
+            </div>
+            
+        </div>
+            <div class="bottom-container">
+               <button onclick="setNewGame()" class="start-btn">Start new game</button>
+            </div>
+          </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
